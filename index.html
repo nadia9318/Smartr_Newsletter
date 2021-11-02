@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartr - Newsletter</title>
+    <style>
+        *{
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: Arial, sans serif;
+  
+}
+
+.logo {
+  max-width: 175px;
+  position: relative;
+  left: 10%;
+  margin-top: 30px;
+}
+
+.tip {
+  font-size: .9rem;
+  text-align: center;
+  color: #444444;
+  position: relative;
+  left: 2%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.photo {
+    max-width: 600px;
+}
+
+.title {
+  margin: 20px 10px;
+  font-size: 1.8rem;
+  color: #444444;
+}
+
+.paragraph1 {
+  margin: 15px 100px 0 10px;
+  font-size: .9rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.paragraph2 {
+  margin: 15px 40px 0 10px;
+  font-size: .9rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.list {
+  margin: 15px 100px 15px 10px;
+  font-size: .9rem;
+  line-height: 22px;
+  color: #444444;
+}
+
+.paragraph3 {
+  margin: 15px 40px 0 10px;
+  font-size: .9rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.sig {
+  margin: 15px 40px 0 10px;
+  font-size: .9rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.btn {
+  margin: 4px 2px;
+  background-color: #006f62;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  left: 42%;
+  font-size: .9rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+hr {
+  width: 95%;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  border-top: 2px solid #006f62;
+}
+
+.smartr {
+  max-width: 35px;
+}
+
+.linkedin {
+  max-width: 35px;
+}
+
+.twitter {
+  max-width: 35px;
+}
+
+.facebook {
+  max-width: 35px;
+}
+
+.policy {
+  text-decoration-color: #bcbcbc;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.location {
+  color: #bcbcbc;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.dash {
+  color: #bcbcbc;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.unsub {
+  color: #bcbcbc;
+  text-align: center;
+  font-size: .7rem;
+}
+
+.online {
+  color: #bcbcbc;
+  text-align: center;
+  font-size: .7rem;
+  text-decoration-color: #bcbcbc;
+}
+
+@media screen and (max-width: 375px) {
+    *{
+  margin: 0 auto;
+  max-width: 300px;
+  font-family: Arial, sans serif;
+  
+}
+
+.logo {
+  max-width: 125px;
+  position: relative;
+  left: 13%;
+  margin-top: 30px;
+}
+
+.tip {
+  font-size: .7rem;
+  text-align: center;
+  color: #444444;
+  position: relative;
+  left: 2%;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.photo {
+    max-width: 300px;
+}
+
+.title {
+  margin: 20px 30px;
+  font-size: 1.2rem;
+  color: #444444;
+}
+
+.paragraph1 {
+  margin: 15px 60px 0 40px;
+  font-size: .8rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.paragraph2 {
+  margin: 15px 60px 0 40px;
+  font-size: .8rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.list {
+  margin: 15px 60px 15px 40px;
+  font-size: .8rem;
+  line-height: 22px;
+  color: #444444;
+}
+
+.paragraph3 {
+  margin: 15px 60px 0 40px;
+  font-size: .8rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.sig {
+  margin: 15px 60px 0 40px;
+  font-size: .8rem;
+  line-height: 25px;
+  color: #444444;
+}
+
+.btn {
+  margin: 15px auto;
+  background-color: #006f62;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  left: 27%;
+  font-size: .9rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.online {
+  color: #bcbcbc;
+  text-align: center;
+  font-size: .7rem;
+  text-decoration-color: #bcbcbc;
+  margin-bottom: 20px;
+}
+
+}
+    </style>
+</head>
+<body>
+    <table>
+      <tr>
+        <td>
+          <img class="logo" src="https://ci3.googleusercontent.com/proxy/6aGJk-whsX4f2Rc8aIqtO-eWgo1Tnm91zkAQTTJWXXeTYvdJ97C56W2ZyhjezrRcCrfUaE_XzWSkXPiOhRdk9dmm63wrbN1WskglUEGcr1czEKTNPou0qdb8f4ppb3NsoelstmGVtfII_wpzFyPdgbQn2XkxSelv0At_3tlGy2WfY6Rj3tvrrM26XWNLYzKzdT0KiuniD6SDe0uD-npXliUluOS9RD-6oew=s0-d-e1-ft#https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/b2e2177bebfd4f68b48c25d97cf1d54f/smartr%20logo.png">
+          <p class="tip">Tip of the week for job seekers!</p>
+        </td>
+      </tr>
+    </table>
+    
+    <table>
+      <tr>
+        <td>
+          <img class="photo" src="https://ci3.googleusercontent.com/proxy/bZOXClKGPNfF-fh3oYVJEAsfJsNgYwcJwijDQxCMFqXgLjZZSMPys1Ws-FyTFM5jzOzK5qNJmyJS0yAyD7OObi_gdvXVeHGRZ9-5_jqmezhEOe8oqJ43eaIIKoKfihiNCI7VriDifduYxD_rcJgZxc4O1UPM72ftolnrgtIJjELz6sAVqE7wypMszD11aAJ0BCLZ2q_0O5sWFIqm_SLoULxsIWa6hcaq=s0-d-e1-ft#https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/b2e2177bebfd4f68b48c25d97cf1d54f/5_Accuracy.jpeg">
+        </td>
+      </tr>
+    </table>
+    
+    <table>
+      <tr>
+        <td>
+          <h1 class="title">Grammatical errors are a no-no</h1>
+          <p class="paragraph1">A Career Builder survey found that 77% of employers screen applications out based on typos or grammar errors. And guess what percentage of resumes have errors? 58%! And we haven't even gotten to information accuracy.</p>
+          <p class="paragraph2">The good news? You can make it to the upper 42% just by double-checking your application for errors. Tips for catching mistakes:</p>
+          <ol class="list">
+            <li>Get a trusted friend or colleague to read over your CV-resumé & cover letter.</li>
+            <li>Take a break between writing & sending your application & read over one last time for errors with fresh eyes.</li>
+            <li>Install a grammar/spell check extension in your browser.</li>
+          </ol>
+          <p class="paragraph3">Remember: Recruiters spend an average of 7 seconds reviewing each application during the screening step. Don't give an easy reason to get screened out.</p>
+  
+          <p class="sig">- Your Friends at Smartr</p>
+        </td>
+      </tr>
+    </table>
+    
+    <table>
+      <td>
+        <tr>
+          
+          <button class="btn">Check Smartr Profile</button>  
+      </td>
+      </tr>
+    </table>
+  
+  <hr>
+  <table>
+    <tr>
+      <td>
+        <div class="socials">
+          
+          <img class="smartr" href="#"   alt="smartr"   src="https://ci6.googleusercontent.com/proxy/GarfaYwGdHjMV9pyb3H-u4ZFZVunSExDO_xQIqtYcCZWMnXrzQn6ov4amdYOViXUouuRCLxDRPTuZRCyR8mWiT3FRK89UsKo-qHttz5dxWOvHgY8u4FJS8poIm0qlxbvkDNm0lzP9xBHM10jwtDKqkf-xsOn2gqfeckfY9kiyxr4wtB1D71WhB7vCYu037J1dR3dn2rmh9Dd17Ax3k2FTai-UyVQDfn28h9L2Xs8t8eX0eeQ=s0-d-e1-ft#https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/b60e0540270e4a309ac99e60e84ac062/editor_images/Bulb-grey.png">
+          <img class="linkedin" alt="LinkedIn" href="#" src="https://ci5.googleusercontent.com/proxy/fzblOEECoexakcEYhIMYEeHVOSGRgF1Ftx0cczFMVTVK4lneP3HAb8goidRG14Y5x53BkWd6saQnjRY97jAmQwEvzIDb5soKb6eJa5X20QnSbVsirscEt4X_zqbvau7vM5C3W4yd0TnTAWv1ptlLfqPerWucRtac2dRHCglbTcFkGLp_2AO4-SQ=s0-d-e1-ft#https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/linkedin@2x.png">
+          <img class="twitter" href="#" alt="twitter" src="https://ci4.googleusercontent.com/proxy/8u3BJ6cbjsnNu81tX8sripKUWNp5KrHWG_wN5qGT9Oj4yO8Oev_gFxzPn-Ts2gjepmBMywk4GMU3VIxNuxLvKE1VUEycFDtVKXC53xl4gIVd8HmYdXYxBZhP7nEkymY-Sr_gt650Rccl5y-aklDJ41iSUlG94-XaywtjPhH1JAzlVdYgPDGz5Q=s0-d-e1-ft#https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/twitter@2x.png">
+          <img class="facebook" href="#" alt="facebook" src="https://ci6.googleusercontent.com/proxy/WN6uTZPYAOPmQfy-9J0ZzOJblkPaSs00Fhn7j7UHm2kFzOwqhbWWDmH9hvv9KkKISHCKVAU_DFYb3H-t0fqDEQtbK_MQLElKdQfhoy6f70jdDdhN90ZW1J3s_jLRi5QLrOFOWlaQUO1OsV51H52niTp77Q8KBu2MxmZp4SV7FdfCxUAp8RUlmd4=s0-d-e1-ft#https://d2fi4ri5dhpqd1.cloudfront.net/public/resources/social-networks-icon-sets/t-only-logo-dark-gray/facebook@2x.png">
+          </td>
+        </tr>
+      </table>
+  
+
+  <table>
+    <tr>
+      <td>
+        <p class="policy">
+          <a href="#" style="color: #bcbcbc;">Privacy Policy |</a>
+          <a href="#" style="color: #bcbcbc;">Terms & Conditions</a>
+        </p>
+        <p class="location">martRecruiters, Inc. - San Francisco - California - USA</p>
+        <p class="dash">-</p>
+        <p class="unsub">Don't want to receive these emails anymore? <a href="#" style="color: #bcbcbc;">Unsubscribe</a></p>
+        <p class="online"><a href="#" style="text-decoration-color: #bcbcbc; color: #bcbcbc;">View Online</a></p>
+      </td>
+    </tr>
+</table>
+</html>
